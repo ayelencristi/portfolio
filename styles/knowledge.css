@@ -1,0 +1,58 @@
+h2 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+p {
+    font-size: 0.7em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.4;
+}
+.about-know {
+    background-color: #F6F7FB;
+
+}
+.container-skills {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-description{
+    margin-inline-start: 300px;
+    margin-inline-end: 300px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 40px;
+    
+}
+.skills {
+    width: 260px;
+    height: 230px;
+    color: #2e2e31;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    padding: 40px 20px;
+    margin: 10px;
+    padding: 30px;
+}
+.img-skill {
+    width: 100px;
+    height: 100px;
+    
+}
