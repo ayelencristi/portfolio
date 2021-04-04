@@ -18,7 +18,7 @@ p {
     line-height: 1.4;
 }
 .about-know {
-    background-color: #F6F7FB;
+    background-color:#F6F7FB;
 
 }
 .container-skills {
@@ -50,9 +50,29 @@ p {
     padding: 40px 20px;
     margin: 10px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.img-skill {
-    width: 100px;
-    height: 100px;
-    
+.fab {
+    font-size: 3em;
+} 
+.fa-html5, .fa-git-alt {
+    color: orangered;
+}
+.fa-css3 {
+    color:#3D8FC6;
+}
+.fa-sass {
+    color:deeppink;
+}
+.fa-js-square {
+    color:gold;
+}
+.fa-react {
+    color:#61DAFB;
+}
+.skills-name {
+    font-size: 0.8em;
+    font-weight: 700;
 }

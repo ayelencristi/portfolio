@@ -62,3 +62,17 @@ section {
     justify-content: center;
     align-items: center;
 }
+.about-say {
+    background-color: #FF6583;
+    font-size: 1.8em;
+    color:white;
+    padding-inline-end: 300px;
+    padding-inline-start: 300px;
+}
+.someone {
+    font-size: 1em;
+}
+.fas {
+    font-size: 3em;
+}
+
