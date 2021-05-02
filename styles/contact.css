@@ -1,0 +1,26 @@
+.contact-write {
+    display: flex;
+}
+
+}
+.container-contact {
+    width: 100%;
+    max-width: 1100px;
+    
+}
+.contact {
+    display: flex;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 80px 60px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+}
+.w-50 {
+    width: 50%;
+}
+.name {
+    display: flex;
+    text-align: left;
+    
+}

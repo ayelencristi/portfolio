@@ -22,7 +22,6 @@ section {
     width: 45%;
     height: 500px;
     display: flex;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
