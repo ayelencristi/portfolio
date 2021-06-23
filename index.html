@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="./styles/presentation.css">
     <link rel="stylesheet" href="./styles/knowledge.css">
     <link rel="stylesheet" href="./styles/proyect.css">
-    <script src="https://kit.fontawesome.com/5c3ddfe6b4.js" crossorigin="anonymous"></script>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/5c3ddfe6b4.js" crossorigin="anonymous">
+    </script>
 </head>
 <body>
-    <div class="container">
+    <!--SECCIÓN HEADER-->
         <header>
             <div class="menu">
                 <nav class="navegador">
@@ -29,7 +31,9 @@
                 </nav>
             </div>
         </header>   
+    <!--SECCIÓN PRESENTACIÓN-->
         <section>
+            <a name="hola"></a>
             <div class="presentation">
                 <div class="info">              
                 <p class="about-hi">¡Hola! Soy</p>
@@ -42,53 +46,52 @@
                 <img src="./assets/images/undraw_Landscape_mode_re_r964.svg"; class="about-img">
             </div>
         </section>
-        <section class="about-know">
+    <!--SECCIÓN MIS CONOCIMIENTOS-->
+        <section>
+            <a name="misconocimientos"></a>
             <div class="contenido">
-                <div>
-                    <h2>Mis conocimientos</h2>
-                    <br>
-                    <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>
-                </div>
-                <div classs="flex">
-                    <div class="skills"><a href="#"></a>
+                <h2>Mis conocimientos</h2>
+                <p class="about-description">Los siguientes son los aprendidos durante la carrera de Desarrollo Frontend, en Ada. Además de estos realicé otros cursos como "Fundamentos de la programación" en la UTN y "Curso básico de base de datos y consultas" en Udemy</p>                
+                <div class="flex-know">
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-html5"></i>
-                        <p class="skills-name">HTML 5</p>
+                        <p class="pryects-name">HTML 5</p>
                     </a>
-                    </div>
-                    <div class="skills"><a href="#"></a>
+                    </a></div>
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-css3"></i>
-                        <p class="proyects-name">CSS 3</p></a>
-                    </div>
-                    <div class="skills"><a href="#"></a>
+                        <p class="proyects-name">CSS 3</p></a></div>
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-sass"></i>
-                        <p class="proyects-name">Sass</p></a>
-                    </div>
-                    <div class="skills"><a href="#"></a>
+                        <p class="proyects-name">Sass</p></a></div>
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-js-square"></i>
-                        <p class="proyecst-name">JavaScript</p></a>
-                    </div>
-                    <div class="skills"><a href="#"></a>
+                        <p class="proyecst-name">JavaScript</p></a></div>
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-react"></i>
-                        <p class="proyects-name">React</p></a>
-                    </div>
-                    <div class="skills"><a href="#"></a>
+                        <p class="proyects-name">React</p></a></div>
+                    <div class="cards skills-know"><a href="#"></a>
                         <i class="fab fa-git-alt"></i>
                         <p class="proyects-name">GIT</p></a>
                     </div>
                 </div>
             </div>
         </section>
+    <!--SECCIÓN ABOUT SAY-->
         <section class="about-say">
+            <a name="aboutsay"></a>
             <div>
                 <i class="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus labore, nobis perspiciatis sit ab reprehenderit ipsum fugit consequuntur voluptas dicta quaerat fugiat odit minima consequatur saepe, id repellat maiores explicabo?</p>
-                <h2 class="someone">Someone</h2>
+                <p>"No puedo enseñar nada a nadie. Sólo puedo hacerles pensar."</p>
+                <h2 class="someone">Sócrates</h2>
             </div>
         </section>
+    <!--SECCIÓN MIS PROYECTOS-->
         <section>
+            <a name="misproyectos"></a>
             <div class="contenido">
                 <h2>Mis proyectos</h2>
-                <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>                
+                <p class="about-description">Proyectos desarrollados durante la carrera mencionada, en Ada.</p>                
                 <div class="flex">
                     <div class="cards proyects"><a href="#">
                         <img src="./assets/images/portfolio.svg" alt class="img-proyects">
@@ -118,48 +121,75 @@
                 </div>
             </div>
         </section>
-        <section class="contact-write">
-            <div class="container-contact">
-                <div class="contact">
-                   <section class="w-50">
-                        <h2>Contactame</h2>
-                        <p class="text-contact">Lorem, ipsum dolor sit amet consecteturb adipisicing elit. Et placeat sint iusto?Autem repellendus onsequuntur doloremque vitae magni, adipisci vel illo ratione non voluptatem aut officiis. Esse ea architecto quo.</p>
-                        <section>
-                            <ul>
-                                <li><a href="#">Ayelén Cristi</a></li>
-                                <li><a href="https://www.instagram.com/ayelennci/?hl=es-la">@ayelennci</a></li>
-                                <li><a href="#">Ayelen Cristi</a></li>
-                                <li><a href="#">ayelendcristi@gmail.com</a></li>
-                            </ul>
-                        </section>
-                    </section>
-                    <section class="w-50">
-                        <h2>Escribime</h2>
-                        <form action="">
-                            <div class="name">
-                                <div>
-                                    <label for="firstname">Nombre*</label>
-                                    <input type="text" name="Nombre" id="first-name" placeholder="p.ej: Ayelen" aria-label="Nombre" required></div>
-                                <div>
-                                    <label for="lastname">Apellido*</label>
-                                    <input type="text" name="Apellido" id="last-name" placeholder="p.ej: Cristi" aria-label="Apellido" required></div>
+    <!--SECCIÓN FORMULARIO-->
+        <a name="contactame"></a>
+        <section class="contact-section">
+            <div class="contact">
+                <section class="contactme">
+                    <div>
+                        <h2 class="contact-title">Contactame</h2>
+                        <p class="contact-description">Si queres comunicarte conmigo, podés hacerlo llenando el formulario y/o en cualquiera de las siguientes redes!</p>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <ul class="social-icons">
+                           
+                            <li class="li-social-icons">
+                                <i class="size-logo fab fa-twitter fa-xs"></i>
+                                <a class= "reference" href="#">Twitter</a>
+                            </li>
+
+                            <li>
+                                <i class="size-logo fab fa-discord fa-xs"></i>
+                                <a class= "reference" href="#">Discord</a>
+                            </li>
+
+                            <li>
+                                <i class="size-logo fab fa-linkedin-in fa-xs"></i>
+                                <a class= "reference" href="https://www.linkedin.com/in/ayelen-cristi/">Linkedin</a>
+                            </li>
+
+                            <li>
+                                <i class="size-logo fas fa-envelope fa-xs"></i>
+                                <a class= "reference" href="#">ayelendcristi@gmail.com</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="contactme">
+                        <h2 class="contact-title">Escribime</h2>
+                        
+                        <form class="box-form">
+                            <div class="my-form">
+                                <div class="first-name">
+                                    <label class="fontsize-label" for="name">Nombre*</label>
+                                    <input type="text" id="name" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="last-name">
+                                    <label class="fontsize-label" for="lastname">Apellido*</label>
+                                    <input type="text" id="lastname" placeholder="Ingrese su apellido">
+                                </div>
                             </div>
-                            <div>
-                                <label for="email">Email*</label>
-                                    <input type="text" name="Email" id="email" placeholder="p.ej: ayelendcristi@gmail.com" aria-label="Email" required>
+                            
+                            <div class="email">
+                                <label class="fontsize-label" for="mail">Email*</label>
+                                <input type="email" id="mail" placeholder="Ingrese su e-mail">
                             </div>
-                            <div>
-                                <label for="message">Mensaje *</label>
-                                    <br>
-                                    <textarea type="text" name="Email" id="message" cols="30" rows="10" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required>
-                                    </textarea>
+                                <br>
+                            <div class="message">
+                                <label class="fontsize-label" for="comment">Mensaje*</label>
+                                <textarea id="comment" cols="20" rows="5" maxlength="300" placeholder="Escriba aquí un mensaje">
+                                </textarea>
                             </div>
+                            <button type="submit" class="sendbutton">
+                                ENVIAR
+                            </button>
                         </form>
-                    </section>
-                </div>
+                </section>
             </div>
         </section>
-        
-    </div>
+    <!--SECCIÓN FOOTER-->
 </body>
 </html>
